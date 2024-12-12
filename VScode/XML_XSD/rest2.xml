@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sustainability xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="rest2.xsd">
+ 
+ <!--A] The email of company can accept 8 characters before the @ 
+  and after the @ we accept only gmail.com, outlook.com and yahoo.com 
+  The country accept only the following values: USA, Germany, Brazil 
+  
+  Los emails estan cambiados para que no den error-->
+    <company email="abcdef12@gmail.com" name="EcoGreen Solutions" country="USA">
+ 
+        <!--B] The id attribue can accept 3 numbers from 0 to 999. -->
+        <project id="001" name="Solar Power Expansion">
+            <description>Installing solar panels in residential areas to increase renewable energy consumption.</description>
+ 
+            <!--C] The elements start_date and end_date must be defined in a global way 
+         with the correct type of data. -->    
+            <start_date>2023-05-01</start_date>
+            <end_date>2024-06-30</end_date>
+            <!-- D] The goal element should be limited to 32 characters.  -->
+            <goals>
+                <goal>Reduce carbon emissions</goal>
+                <goal>Increase the use of solar energy</goal>
+            </goals>
+            <!-- E] The attribute unit could accept the following values: {kWh,tons, percentage,index}
+             You have to define this restriction in a global way. -->
+            <metrics>
+                <energy_generated unit="kWh">500000</energy_generated>
+                <co2_reduction unit="tons">1200</co2_reduction>
+            </metrics>
+        </project>
+        <sustainable_practices>
+            <!-- F] The attribute code must be limited to 4 upper or lowercase letters, 4 numbers and 3 upper or lowercase letters.  -->
+            <practice code="aBcd1234AbC">Using recycled materials in all installations.</practice>
+            <practice code="aBcd1234AbC">Reducing water consumption.</practice>
+        </sustainable_practices>
+    </company>
+
+    <company email="abcdef12@yahoo.com" name="GreenTech Innovators" country="Germany">
+        <project id="002" name="Plastic Recycling Initiative">
+            <description>Developing a large-scale plastic recycling facility to process post-consumer waste.</description>
+            <start_date>2022-01-15</start_date>
+            <end_date>2025-12-31</end_date>
+            <goals>
+                <goal>Recycle 1 million tons of plastic annually.</goal><!--Da error al ser mas carácteres de los permitidos-->
+                <goal>Reduce landfill waste by 15% in the region.</goal>
+            </goals>
+            <metrics>
+                <plastic_recycled unit="tons">750000</plastic_recycled>
+                <landfill_reduction unit="percentage">12</landfill_reduction>
+            </metrics>
+        </project>
+        <sustainable_practices>
+            <!--El atributo code es requerido en el xsd pero como no se sabe si tiene que ser requerido o no dejo esto como esta y no toco el xsd-->
+            <practice>Implementing a zero-waste policy in all facilities.</practice>
+            <practice>Utilizing renewable energy to power recycling plants.</practice>
+        </sustainable_practices>
+    </company>
+
+    <company email="abcdef12@outlook.com" name="Sustainable Agriculture Inc." country="Brazil">
+        <project id="003" name="Organic Farming Expansion">
+            <description>Expanding organic farming techniques to reduce pesticide use and promote soil health.</description>
+            <start_date>2021-07-01</start_date>
+            <end_date>2024-12-31</end_date>
+            <goals>
+                <goal>Reduce pesticide use by 50% across 1,000 hectares.</goal>
+                <goal>Improve soil health and biodiversity in agricultural regions.</goal>
+            </goals>
+            <metrics>
+                <pesticide_reduction unit="percentage">45</pesticide_reduction>
+                <soil_quality_improvement unit="index">8.5</soil_quality_improvement>
+            </metrics>
+        </project>
+        <sustainable_practices>
+            <practice>Promoting crop rotation and soil conservation methods.</practice>
+            <practice>Using 100% organic fertilizers to enrich the soil.</practice>
+        </sustainable_practices>
+    </company>
+</sustainability>
+
+<!--los 12 errores que da el xml son por el tamaño de caracteres en la descripcion y la falta del
+atributo code en los elementos practice-->

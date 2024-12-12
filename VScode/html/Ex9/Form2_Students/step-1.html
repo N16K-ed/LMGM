@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Step-1</title>
+    <style>
+      .return_button { background-color: rgb(232, 231, 231);
+                       border: 1px solid rgb(163, 163, 163);
+                       border-radius: 5px;
+                       margin: 2px;
+                       
+                      }
+      a { padding-inline: auto;
+          text-decoration: none;
+          color: black;
+          }
+      a:hover{ background-color: rgb(176, 176, 176);
+        border: 1px solid  rgb(163, 163, 163);
+        border-radius: 5px;}
+    </style>
+</head>
+<body>
+<form action="./step-2.html">
+<h1>CREATE FAMILY/GROUP FORM</h1><br>
+<img src="./images/step-1.jpg" alt="stp1"> 
+<h2>Step 1: Personal Information</h2>
+<h3>Personal Information responsible: for the group</h3>
+<label for="Surname">Surname *</label><br>
+<input type="text" required><br><br>
+<label for="Name">Name *</label><br>
+<input type="text" required><br><br>
+
+<fieldset>
+    <legend>Sex</legend>
+    <input type="radio" name="1" value="Man"> <label for="radio1"> Man </label><input type="radio" name="1" value="Woman"> <label for="radio2">Woman</label>
+</fieldset><br>
+<label for="passport">Passport number, id number *</label><br>
+<input type="text" required><br><br>
+<span class="return_button"><a href="./create-group.html">Return</a></span>
+<input type="submit" value="Save and continue">
+
+</form>
+</body>
+</html>

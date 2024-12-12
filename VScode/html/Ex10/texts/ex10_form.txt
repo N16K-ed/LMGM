@@ -1,0 +1,91 @@
+Copiar el siguiente código en la posición adecuada del HTML.
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <style>
+        *{font-family:monospace;}
+        body{background-color: rgba(95, 158, 160, 0.559);}
+        a{color:rgb(21, 53, 214);}
+        p{border:1px solid #fff;
+            padding: 10px;}
+    </style>
+</head>
+
+MARKUP LANGUAGES UNIT 4 - HTML
+
+Course
+Configuration
+Participants
+Grades
+More
+Personal information
+Name*
+Surname*
+Email*
+Age*
+Description
+Summary *
+Write here the summary of this course...
+Upload archives here:
+Imagen (GIF) .gif
+Imagen (JPEG) .jpg
+Imagen (PNG) .png
+
+Format
+Select format:*
+Value 1
+Value 2
+Value 3
+
+Language:*
+English
+Spanish
+French
+
+Incognito mode:*
+True
+False
+
+Appearance
+Force language
+True
+False
+
+Number of announcements
+0
+1
+2
+3
+4
+5
+6
+7      
+      
+Show gradebook to students
+Yes
+No
+         
+Show activity reports
+Yes
+No      
+
+Show activity dates
+
+Files and upload
+Legacy course files
+Yes
+No 
+
+Maximum size for files uploaded by users
+Limit to (500 MB)
+500 MB
+300 MB
+200 MB
+100 MB
+50 MB
+20 MB
+10 MB
+Save
+Cancel
+        
+        

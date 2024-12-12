@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>step-4</title>
+    <style>
+      .return_button { background-color: rgb(232, 231, 231);
+                       border: 1px solid rgb(163, 163, 163);
+                       border-radius: 5px;
+                       margin: 2px;
+                       
+                      }
+      a { padding-inline: auto;
+          text-decoration: none;
+          color: black;
+          }
+      a:hover{ background-color: rgb(176, 176, 176);
+        border: 1px solid  rgb(163, 163, 163);
+        border-radius: 5px;}
+    </style>
+</head>
+<body>
+    <form action="./step-5.html">
+        <h1>CREATE FAMILY/GROUP FORM</h1>
+        <img src="./images/step-4.jpg" alt="stp3">
+        <h2>Step 4: health questionnaire</h2>
+        <h3>Mandatory for entry into Spain</h3>        
+        <p>IN RELATION TO THE HEALTH EMERGENCY DECLARED BY COVID-15, it is mandatory that you answer the following questions. If necessary, a medical evaluation will be carried out upon arrival.</p>
+        <label for="yes/no">Have you had contact with a confirmed case of new coronavirus disease (COVID-19) in the last 14 days? *</label><br>
+        <br>
+        <input type="radio" name="1" value="Yes"><label for="rad1"> Yes</label>
+        <input type="radio" name="1" value="No"><label for="rad2"> No</label>
+        <br><br>
+        <fieldset>
+            <legend>Do you have fever, cough or shortness o breath? *</legend>
+            <input type="radio" name="2" value="Yes"><label for="rad1"> Yes</label>
+            <input type="radio" name="2" value="No"><label for="rad2"> No</label>
+            <br><br>
+            <p>Please check the symptom(s) you are experiencing</p>
+            <br>
+            <br>
+            <input type="checkbox" value="Fever"><label for="fever"> Fever</label>
+            <input type="checkbox" value="Respiratory distress"><label for="Respiratory distress"> Respiratory distress</label>
+            <input type="checkbox" value="Cough"><label for="Cough"> Cough</label><br>
+            <p></p>
+        </fieldset><br>
+        <fieldset>
+            <legend>Have you been to or visited a hospital in the last 14 days? *</legend>
+            <input type="radio" name="3" value="Yes"><label for="rad1"> Yes</label>
+            <input type="radio" name="3" value="No"><label for="rad2"> No</label>
+            <br><br>
+            <p>If yes, please mark with an "X" the option that best describes this visit.</p><br>
+            <input type="checkbox" value="Hospital worker in contact with COVID-19"><label for="Hospital worker in contact with COVID-19"> Hospital worker in contact with COVID-19</label>
+            <input type="checkbox" value="Hospital worker without contact with COVID-19"><label for="Hospital worker without contact with COVID-19"> Hospital worker without contact with COVID-19</label>
+            <input type="checkbox" value="Visit for suspected COVID-19"><label for="Visit for suspected COVID-19"> Visit for suspected COVID-19</label><br>
+            <input type="checkbox" value="Visit for other reasons"><label for="Visit for other reasons"> Visit for other reasons</label><br>
+            <p></p>
+        </fieldset>
+        
+        <label for="rad33">Do you have a certificate of a negative result of a PCR, TMA or RT-LAMP (COVID-19) test performed within 72 hours prior to your arrival in Spain (you may be required to present the certificate of the result upon arrival).<br>CHILDREN UNDER 6 YEARS OF AGE ARE NOT REQUIRED TO TAKE THE TEST, SO THEY MUST ANSWER YES. **</label>
+        <br><br>
+        <input type="radio" name="4" value="Yes"><label for="rad1"> Yes</label>
+        <input type="radio" name="4" value="No"><label for="rad2"> No</label> <br>
+        <p>(**) The answer to this question is mandatory to generate the QR, but if you do not have the certificate yet, you can answer it later from the continue form option on the main screen.</p>
+        <br>
+        <span class="return_button"><a href="./step-3.html">Return</a></span>
+        <input type="submit" value="Save and continue">
+    </form>
+</body>
+
+</html>

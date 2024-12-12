@@ -1,0 +1,10 @@
+Sample HTML Page
+Welcome to My Sample HTML Page
+    About This Page
+    This is a simple webpage created to demonstrate the use of various HTML tags. You’ll see how to use tags for emphasizing text and making text appear stronger.    
+Learning HTML Tags
+Using different tags helps create a well-structured and  readable webpage.
+In this example, we’re practicing with tags like paragraph and heading tags. We also have line breaks and horizontal rules.
+    
+That’s all for this HTML example! Thank you for visiting.
+

@@ -1,0 +1,26 @@
+1)
+//@category
+2)
+//book[price > 20]/title
+3)
+//book[price < 18]
+4)
+//book/title | //price
+5)
+//book[author='Isaac Asimov']
+//*[author='Isaac Asimov']
+6)
+<title lang="en">Dune</title>
+<title lang="en">Foundation</title>
+<title lang="en">Neuromancer</title>
+<title lang="en">The Hitchhiker's Guide to the Galaxy</title>
+4
+7)
+//book[year<1979 and price<20]
+8)
+distinc-values(//@*)
+9)
+//title[starts-with(.,N)]
+10)
+//title[ends-with(.,y)]
+

@@ -1,0 +1,66 @@
+================================================================================
+
+Surname *
+Name * 
+Passport,id
+Flight number
+Arrival Date
+email
+confirm_email
+check here
+Yes,terms
+
+================================================================================
+
+Surname *
+Name * 
+Sex
+Passport,id
+
+
+================================================================================
+
+Airline
+Flight number
+Seat number
+Arrival date
+hotel
+street_number
+apartment
+city
+community
+province
+postal code
+check
+
+================================================================================
+
+Departure_country 
+country1
+country2
+country3
+country4
+Reason  work/family_visit/..etc
+
+================================================================================
+
+contact    Yes/No
+
+symptoms  Yes/No
+Fever
+Respiratory destress
+Cough
+
+visit    Yes/No
+inContact
+wthoutContact
+suspected
+otherReasons
+
+Certificate Yes/No
+
+================================================================================
+
+Check to accept
+
+================================================================================

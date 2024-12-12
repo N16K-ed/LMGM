@@ -1,0 +1,12 @@
+Copiar el siguiente código en la posición adecuada del HTML.
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <style>
+        *{font-family:monospace;}
+        body{background-color: rgba(95, 158, 160, 0.559);}
+        a{color:rgb(21, 53, 214);}
+        p{border:1px solid #fff;
+            padding: 10px;}
+    </style>
+</head>

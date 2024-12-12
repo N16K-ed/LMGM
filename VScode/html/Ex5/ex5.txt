@@ -1,0 +1,65 @@
+HTML[byStudentName]
+
+HTML
+CSS
+JavaScript
+
+Front-end web development 
+
+HTML
+CSS
+JavaScript
+Cookies
+My first Table
+
+Front-end web development is the development of the graphical user interface of a website,
+through the use of HTML, CSS, and JavaScript, so that users can view and interact with that website.
+        
+Tools used for front-end development
+There are several tools and platforms, such as WordPress, Joomla, and Drupal, available that can be used to develop the front end of a website.
+
+HyperText Markup Language
+HyperText Markup Language (HTML) is the backbone of any website development process,
+without which a web page does not exist. Hypertext means that text has links, termed
+hyperlinks, embedded in it. When a user clicks on a word or a phrase that has a hyperlink,
+it will bring another web-page. A markup language indicates text can be turned into images,
+tables, links, and other representations. It is the HTML code that provides an overall framework
+of how the site will look. HTML was developed by Tim Berners-Lee. The latest version of HTML is
+called HTML5 and was published on October 28, 2014 by the W3C recommendation. This version contains
+new and efficient ways of handling elements such as video and audio files.
+
+Cascading Style Sheets (CSS)
+Cascading Style Sheets (CSS) controls the presentation aspect of the site and 
+allows your site to have its own unique look. It does this by 
+maintaining style sheets that sit on top of other style rules and are 
+triggered based on other inputs, such as device screen size and resolution. 
+The CSS can be added externally, internally, or embedded in the HTML tags.[6]
+JavaScript.
+
+JavaScript
+JavaScript is an event-based imperative programming language (as opposed to HTML's declarative language model) 
+that is used to transform a static HTML page into a dynamic interface. 
+JavaScript code can use the Document Object Model (DOM), provided by the HTML standard, to manipulate a 
+web page in response to events, like user input.
+Using a technique called AJAX, JavaScript code can also actively retrieve content from the web 
+(independent of the original HTML page retrieval), and also react to server-side events as well, 
+adding a truly dynamic nature to the web page experience.
+
+Cookies INFO
+Cookies are small pieces of text sent to your browser by a website you visit. They help that website remember information about your 
+visit, which can both make it easier to visit the site again
+and make the site more useful to you. Similar technologies, 
+including unique identifiers used to identify an app or
+ device, pixel tags, and local storage, can perform the same 
+ function. Cookies and similar technologies as described throughout 
+ this page can be used for the purposes described below.
+        
+ Some cookies and similar technologies help sites and apps understand how their visitors engage with their services. 
+ For example, Google Analytics uses a set of cookies to collect information on behalf of businesses which use the Google 
+ Analytics service and report site usage statistics to them without personally identifying individual visitors. 
+ ‘_ga’, the main cookie used by Google Analytics, enables the service to distinguish one visitor from another 
+ and lasts for 2 years. Any site that implements Google Analytics, including Google services, uses the ‘_ga’ cookie. 
+ Each ‘_ga’ cookie is unique to the specific property, so it cannot be used to track a given user or browser across unrelated websites.
+
+ Google services also use ‘NID’ and ‘_Secure-ENID’ cookies on Google Search, and ‘VISITOR_INFO1_LIVE’ and ‘__Secure-YEC’ cookies on YouTube, for analytics. Google mobile apps may also use unique identifiers, such as the ‘Google Usage ID’, for analytics.  
+        

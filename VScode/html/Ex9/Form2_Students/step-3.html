@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Step-3</title>
+    <style>
+      .return_button { background-color: rgb(232, 231, 231);
+                       border: 1px solid rgb(163, 163, 163);
+                       border-radius: 5px;
+                       margin: 2px;
+                       
+                      }
+      a { padding-inline: auto;
+          text-decoration: none;
+          color: black;
+          }
+      a:hover{ background-color: rgb(176, 176, 176);
+        border: 1px solid  rgb(163, 163, 163);
+        border-radius: 5px;}
+    </style>
+</head>
+<body>
+    <form action="./step-4.html">
+        <h1>CREATE FAMILY/GROUP FORM</h1>
+        <img src="./images/step-3.jpg" alt="stp3">
+        <h2>Step 3: Travel background</h2>
+        <label for="please...">Please indicate the country where you are starting your trip *.</label><br>
+        <select name="pleaseselect" id="" required>
+            <option value="">Please select an option</option>
+            <option value="1">1</option>
+        </select><br><br><br>
+        <label for="please...2">Please indicate all countries you have traveled/transited through in the last 14 days.</label>
+        <br><br>
+        <select name="1" id="" required>
+            <option value="">Please select an option</option>
+            <option value="1">1</option>
+        </select><br>
+        <select name="2" id="" required>
+            <option value="">Please select an option</option>
+            <option value="1">1</option>
+        </select><br>
+        <select name="3" id="" required>
+            <option value="">Please select an option</option>
+            <option value="1">1</option>
+        </select><br>
+        <select name="4" id="" required>
+            <option value="">Please select an option</option>
+            <option value="1">1</option>
+        </select><br>
+        <input type="button" value="Add country"><br><br>
+        <fieldset>
+            <legend>Travel reason please check one option</legend>
+            <input type="radio" name="rad" required><label for="rad1"> Work</label>
+            <input type="radio" name="rad" required><label for="rad2"> Family visit</label>
+            <input type="radio" name="rad" required><label for="rad3"> Special mission</label><br>
+            <input type="radio" name="rad" required><label for="rad4"> Cooperation</label>
+            <input type="radio" name="rad" required><label for="rad5"> other</label>
+        </fieldset><br>
+        <span class="return_button"><a href="./step-2.html">Return</a></span>
+        <input type="submit" value="Save and continue">
+    </form>
+</body>
+</html>

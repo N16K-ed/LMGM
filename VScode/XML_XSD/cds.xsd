@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="CATALOG">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="CD" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TITLE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:minLength value="5"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="COUNTRY">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:enumeration value="USA"/>
+                    <xs:enumeration value="UK"/>
+                    <xs:enumeration value="EU"/>
+                    <xs:enumeration value="Norway"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="COMPANY" type="xs:string" />
+              <xs:element name="PRICE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:decimal">
+                    <xs:minExclusive value="5"/>
+                    <xs:maxExclusive value="20"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YEAR">
+                <xs:simpleType>
+                  <xs:restriction base="xs:int">
+                    <xs:minInclusive value="1950"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="artist" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

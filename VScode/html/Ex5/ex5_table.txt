@@ -1,0 +1,21 @@
+Table[Edited by StudentName]
+Schedule (Complete your real schedule)
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+
+Computers Science
+English
+Java Programming
+Networks
+English
+Maths
+Physics
+Markup Language
+Java Programming
+Markup Languages
+?
+
+Back

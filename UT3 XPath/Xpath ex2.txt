@@ -1,0 +1,88 @@
+1)
+XQuery
+
+for $x in //book
+where $x/title/contains(.,"Ancient")
+return $x/title/text()
+
+XPath
+
+//book/title[contains(.,"Ancient")]/text()
+
+2)
+XQuery
+
+for $x in //book
+where $x/title/ends-with(.,"s")
+return $x/title/text()
+
+Xpath
+
+//book/title[ends-with(.,"s")]/text()
+
+3)
+XQuery
+
+for $x in //book[last()]
+return $x
+
+XPath
+
+//book[last()]
+
+4)
+
+XQuery
+for $x in //book
+where $x/title = "The Guns of August"
+return $x/year/text()
+
+Xpath
+//book[title = "The Guns of August"]/year/text()
+
+5)
+
+XQuery
+for $x in //book
+where $x/title = "The Guns of August"
+return $x/author/text() | $x/year/text()
+
+XPath
+//book[title = "The Guns of August"]/author/text() | //book[title = "The Guns of August"]/year/text()
+
+6)
+
+XQuery
+for $x in //book
+where $x[year < 1950] | $x[year > 2000]
+return $x
+
+XPath
+//book[year < 1950] | //book[year > 2000]
+
+7)
+
+XQuery
+for $x in //bookstore/book[1]
+return <firstBooktitleAndPrice>{ $x/title/text() | $x/price/text()}</firstBooktitleAndPrice>
+
+XPath
+concat("<firstBooktitleAndPrice>",//book[1]/title/text(), //book[1]/price/text(),"</firstBooktitleAndPrice>")
+
+8)
+
+XQuery
+for $x in //bookstore
+return count(distinct-values($x/book/title/@lang))
+
+XPath
+count(distinct-values(//book/title/@lang))
+
+9)
+
+XQuery
+for $x in //book
+where $x/title/ends-with(.,"t") and $x/price < 15
+return $x
+
+XPath

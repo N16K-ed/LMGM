@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<players xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="players.xsd" >
+   <!-- The element player can appear two times -->
+    <player podium="1">
+      <!-- Define dni globally, by including an extension-->
+       <nickname dni="12345678-B">hakuna_matata</nickname>
+       <!-- limit the age in the interval [0-100],
+      before to send the exercise, show two solutions: local and global -->
+       <age>18</age>
+       <birthday>1990-09-23</birthday>
+       <results>
+          <!-- Define the number of digits and the number of fraction digits -->
+          <points>1.980</points>
+          <points>23.647</points>
+          <points>29.384</points>
+      </results>
+    </player>
+    <player podium="2">
+      <nickname dni="87654321-W">asdf_fdsa</nickname>
+      <age>28</age>
+      <birthday>1996-02-13</birthday>
+      <results>
+          <points>5.980</points>
+          <points>13.647</points>
+          <points>19.384</points>
+      </results>
+    </player>
+</players>

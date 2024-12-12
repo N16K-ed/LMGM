@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore>
+  <book category="history">
+    <title lang="en">The Diary of Anne Frank</title>
+    <author>Anne Frank</author>
+    <year>1947</year>
+    <price>12.00</price>
+  </book>
+  <book category="history">
+    <title lang="en">The Guns of August</title>
+    <author>Barbara W. Tuchman</author>
+    <year>1962</year>
+    <price>14.99</price>
+  </book>
+  <book category="history">
+    <title lang="en">A People's History of the United States</title>
+    <author>Howard Zinn</author>
+    <year>1980</year>
+    <price>16.50</price>
+  </book>
+  <book category="history">
+    <title lang="en">SPQR: A History of Ancient Rome</title>
+    <author>Mary Beard</author>
+    <year>2015</year>
+    <price>19.99</price>
+  </book>
+</bookstore>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<breakfast_menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="food.xsd">
+  <food>
+    <!--Name will have 5 valid values Belgian Waffles etc. -->
+    <name>Belgian Waffles</name>
+    <!-- price maximum 3 digits, two of them fraction digits
+    and in the beginning the dolar sign -->
+    <price>$5.95</price>
+
+    <!--Description will be optional -->
+    <!-- Max length of characters 200 (including 200) -->
+    <description>Two of our famous Belgian Waffles with plenty of real maple syrup</description>
+
+    <!--Min 500 calories max 1000 (both excluded) -->
+    <calories>650</calories>
+  </food>
+  
+  <food>
+    <name>Strawberry Belgian Waffles</name>
+    <price>$7.95</price>
+    <calories>900</calories>
+  </food>
+  <food>
+    <name>Berry-Berry Belgian Waffles</name>
+    <description>Light Belgian waffles covered with an assortment of fresh berries and whipped cream</description>
+    <price>$8.95</price>
+    <calories>900</calories>
+  </food>
+  <food>
+    <name>French Toast</name>
+    <price>$4.50</price>
+    <calories>600</calories>
+    <description>Thick slices made from our homemade sourdough bread</description>
+  </food>
+  <food>
+    <name>Homestyle Breakfast</name>
+    <price>$6.95</price>
+    <description>Two eggs, bacon or sausage, toast, and our ever-popular hash browns</description>
+    <calories>950</calories>
+  </food>
+</breakfast_menu>

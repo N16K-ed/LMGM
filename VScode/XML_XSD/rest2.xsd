@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="sustainability">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="company" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="project">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="description" type="xs:string" />
+                                        <xs:element name="start_date" type="xs:string" />
+                                        <xs:element name="end_date" type="xs:string" />
+                                        <xs:element name="goals">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="goal" maxOccurs="unbounded" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="metrics">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element minOccurs="0" name="energy_generated">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute name="unit" use="required" />
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element minOccurs="0" name="co2_reduction">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute name="unit" use="required" />
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element minOccurs="0" name="plastic_recycled">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute name="unit" use="required" />
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element minOccurs="0" name="landfill_reduction">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute name="unit"
+                                                                        use="required" />
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element minOccurs="0" name="pesticide_reduction">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute name="unit" use="required" />
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element minOccurs="0" name="soil_quality_improvement">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute name="unit" use="required" />
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:integer" use="required" />
+                                    <xs:attribute name="name" use="required" />
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="sustainable_practices">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="practice" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                     <xs:extension base="xs:string">
+                                                        <xs:attribute name="code" use="required" />
+                                                     </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="email" use="required" >
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:pattern value="[a-zA-Z0-9]{8}(@gmail.com)"/>
+                                    <xs:pattern value="[a-z]{8}(@yahoo.com)"/>
+                                    <xs:pattern value="[a-z]{8}[@outlook.com]"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:attribute>
+                        <xs:attribute name="name" use="required" />
+                        <xs:attribute name="country" use="required" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

@@ -1,0 +1,35 @@
+In this exercise you should use tagnames that you have 
+already used like paragraphs, headings, text styles like 
+tagnames: big, em, small, strong, sup.
+Unordered lists: ul, li
+Images: img with relative links!
+
+Building the first part with the divs that i give you.
+
+Copy the following code in the top.
+<div>
+        <div>
+            <div>
+              <h2>HTML</h2>
+            </div>
+        </div>
+        <div>
+            <div>
+              <h2>CSS</h2>
+            </div>
+        </div>
+        <div>
+            <div>
+              <h2>JavaScript</h2>
+            </div>
+        </div>
+</div>
+In the first part you need to create some classes.
+You have to assign the attribute class with value
+header in the first div element and in the third div you 
+should assign the attribute class with value content.
+
+After you should follow the screenshots and try
+to get the same result.
+If you have any question, do not hesitate to 
+ask.
