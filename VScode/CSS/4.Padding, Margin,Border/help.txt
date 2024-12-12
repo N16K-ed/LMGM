@@ -1,0 +1,28 @@
+Comments about exercise 4.Padding, Margin, Border
+==================================================
+
+TAGNAMES
+----------
+
+If you chech html code you can see the following tagnames:
+
+    element <h1>
+    some paragraphs <p>
+
+Take account into the following classes to apply the necessary styles.
+Classes
+-------
+
+You have in total 4 classes that you MUST NOT modify.
+
+    class intro: first paragraph
+    class style-1: 1st and 4th quotation
+    class style-2: 2nd and 5th quotation
+    class style-3: 3rd and 6th quotation
+
+
+--------
+
+In this exercise you can use type of letter:sans-serif.
+
+
