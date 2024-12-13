@@ -1,0 +1,25 @@
+.div1{
+    width: 600px;
+    padding: 50px;
+    border-width: 5px;
+    height: 120px;
+    border-style: double;
+    border-color: blue;
+}
+.div12{
+    padding: 50px;
+    border-width: 5px;
+    height: 30px;
+    width: 250px;
+    border-style: double;
+    border-color: blue;
+}
+.div2{
+
+}
+.div22{
+
+}
+.clearfix{
+
+}

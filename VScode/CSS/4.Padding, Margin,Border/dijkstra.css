@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(144, 238, 144);
+    font-family: sans-serif;
+}
+h1{
+    font-weight: 700;
+    color: white;
+    text-shadow: 2px 2px black;
+    text-transform: uppercase;    
+}
+.intro{
+    margin-left: 185px;
+    margin-right: 185px;
+    border-style: solid;
+    padding: 20px;
+    background-color: white;
+    border-radius: 25px;
+    border-width: 10px;
+}
+.style-1{
+    color: white;
+    background-color: rgb(212, 80, 80);
+    border: rgb(119, 25, 25);
+    border-style: solid;
+    border-width: 10px;
+    padding: 10px;
+    margin-right: 365px;
+    border-top-left-radius: 25px ;
+    border-bottom-left-radius: 25px;
+}
+.style-2{
+    color:white;
+    background-color: rgb(136, 145, 45);
+    margin-left: 365px;
+    border-style: solid;    
+    border-width: 10px;
+    border-color:rgb(165, 42, 42);
+    padding: 10px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.style-3{
+    background-color: rgb(68, 0, 255);
+    color: white;
+    margin-left: 185px;
+    margin-right: 185px;
+    padding: 10px;
+    border-style: dashed;
+    border-width: 4px;
+}

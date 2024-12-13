@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Box-sizing</title>
+    <link rel="stylesheet" href="box-sizing.css">
+
+  </head>
+  <body>
+    <h1>box-sizing: content-box (default)</h1>
+    <div class="div1">
+      The width of this div is 600px, the padding is 50px and together with the
+      border makes a total of 710px wide. 600px + ___px (left and right
+      border) + ___px (left and right padding) = 710px. The height has a value of
+      120px, considering that the padding and border is the same as in the
+      width, the total height is 230px. 120px + ___px (top and bottom border)
+      + ___px (top and bottom padding) = 230px.
+    </div>
+    <div class="div12">What will be the value of width here?</div>
+    <div class="div12">The padding and border is the same.</div>
+    <div class="clearfix"></div>
+    <h1>box-sizing: border-box</h1>
+    <div class="div2">
+      This div has a width value of 600px and a height of 120px. The padding and
+      the border have the same value as in the previous block.
+    </div>
+    <div class="div22">This is half of the width.</div>
+    <div class="div22">What is the value of this width?</div>
+  </body>
+</html>
