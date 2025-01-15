@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;  
+}
+figure {
+  border: 2px solid #000000;
+  border-radius: 15px;
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+  width: auto;
+  height: auto;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+figcaption {
+  margin-top: 10px;
+}
+.wrapper{  
+  background-color: lightgrey;
+  display: grid;
+  grid-template-columns: repeat(4,2fr);
+  grid-template-rows: 1fr 3.25fr 0.75fr 1fr 1.5fr;  
+}
+.row1{
+  order: -4;
+  grid-column: span 2;
+}
+.end{
+  order: 4;
+  grid-column: span 2;
+}
+.previous_end{
+  order: 3;
+  grid-column: span 2;
+}
+.center{
+  grid-column: span 4;
+}
+.doubleColdoubleRow{
+  grid-column: span 2;
+  grid-row: span 2;
+}
+.doubleCol{
+  grid-column: span 2;
+  order: 1;
+}

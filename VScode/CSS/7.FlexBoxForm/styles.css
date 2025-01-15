@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    justify-content: center;
 }
 body{
     display: flex;
@@ -41,13 +42,16 @@ input[type="text"], input[type="email"], input[type="password"], select{
 }
 div[class="form-group"]{
     display: flex;
+    flex-direction: row;
     margin-right: 10px;
     margin-top: 5px;
     flex-wrap: wrap;
+    justify-content: start;
 }
 input[type="radio"], input[type="checkbox"]{
     margin-right: 5px;
     margin-left: 10px;
+    justify-content: start;
 }
 button[type="submit"]{
     padding: 10px;
@@ -60,4 +64,16 @@ button[type="submit"]{
 }
 button:hover{
     background-color: #0056b3;
+}
+.modos > label{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.modos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
