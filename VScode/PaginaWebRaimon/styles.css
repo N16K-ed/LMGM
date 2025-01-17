@@ -1,0 +1,26 @@
+body{
+    background-color: #fd9900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.flex-container{
+    display: flexbox;
+    max-width: 500px;
+    background-color: whitesmoke;
+    width: 100%;
+    padding: 5px;
+    border-radius: 20px;
+    
+}
+div[class="players"] > img{
+    opacity: 0.85;
+}
+div[class="players"] > img:hover{
+    opacity: 1;
+    border: solid 3px #004b76;
+    border-radius: 2px;
+}
+.players{
+    justify-content: space-between;
+    width: auto;
+}
