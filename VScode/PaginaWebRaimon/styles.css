@@ -8,17 +8,19 @@ body{
     max-width: 500px;
     background-color: whitesmoke;
     width: 100%;
-    padding: 5px;
+    padding: 15px;
     border-radius: 20px;
+    
     
 }
 div[class="players"] > img{
     opacity: 0.85;
+    border-radius: 5px;
 }
 div[class="players"] > img:hover{
     opacity: 1;
     border: solid 3px #004b76;
-    border-radius: 2px;
+    border-radius: 5px;
 }
 .players{
     justify-content: space-between;
