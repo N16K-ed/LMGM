@@ -55,8 +55,7 @@ div[class="players"] > img{
 
 div[class="players"] > img:hover{
     opacity: 0.85;
-    border: solid 3px #004b76;
-    border-radius: 5px;
+    background-color: rgb(158, 191, 211);
 }
 
 .players{
