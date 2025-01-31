@@ -1,9 +1,12 @@
 body{
+    display: flex;
+    flex-direction: column;
     background-image:url("./imagenes/fondo_prueba_definitivo.png") ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;  
     margin: 0;
-    padding: 0;  
+    padding: 0;
+      
 } 
 
 .logo{
@@ -33,30 +36,32 @@ body{
     display: flex;
     flex-direction: column;
     align-self: center;
-    
-    background-image: radial-gradient(#004b76, #47b3f1);
-    width: 580px;   
+    background-color: #243644;
+    width: 580px;       
     height: 220px; 
-    border: outset #004b76;
-    border-radius: 20px;
-    text-align: center;
-    justify-self: center;
+    border: 5px solid transparent;
+    border-image:url("./imagenes/mitextbox.png") 30 round repeat;
+        text-align: center;    
     h2{
        padding-bottom: 5px;
-       
+       width: auto;
+       font-family: 'VT323', monospace;
+
        
     }
 }
 
 div[class="players"] > img{    
     opacity: 1;
-    border-radius: 5px;
-    
+    border-radius: 5px;    
 }
 
+
 div[class="players"] > img:hover{
+    
     opacity: 0.85;
     background-color: rgb(158, 191, 211);
+    
 }
 
 .players{
@@ -75,8 +80,8 @@ div[class="players"] > img:hover{
     left: 0;
     bottom: 0;
     width: 100%;
-    position: absolute;
-    bottom: 0;
+    justify-content: baseline;
+       
 }
 
 nav{  
@@ -108,7 +113,7 @@ li{
 
 li:hover{
     background-color: #2273a1;
-    opacity: 0.85;
+    
 }
    
    
