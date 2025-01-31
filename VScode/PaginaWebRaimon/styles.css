@@ -25,6 +25,7 @@ body{
     width: 100%;
     top: 0;
     left: 0;
+    right: 0;
     
 }
 
@@ -67,17 +68,19 @@ div[class="players"] > img:hover{
     display: flex;
     justify-content: center;
     align-items: bottom;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin-top: 100px;
     background-image: linear-gradient(to right, #004b76, #004b76, #004b76 );
     left: 0;
     bottom: 0;
     width: 100%;
+    position: absolute;
+    bottom: 0;
 }
 
 nav{  
-    margin-top: 81px;
-       
+    margin-top: 81px;       
     margin-bottom: 20px;    
         
 }
