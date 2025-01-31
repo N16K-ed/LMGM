@@ -1,8 +1,9 @@
 body{
-    background-image: linear-gradient(to right, #fd9800 ,#fd98009f, #fd9800);
-    
+    background-image:url("./imagenes/fondo_prueba_definitivo.png") ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;    
+    color: white;  
+    margin: 0;
+    padding: 0;  
 } 
 
 .logo{
@@ -19,8 +20,7 @@ body{
 .title{
     text-align: center;
     text-shadow:1px 1px gray;
-    background-image: linear-gradient(to right, #2273a1 ,#2272a19f,#2273a1);    
-    
+    background-image: linear-gradient(to right, #2273a1 ,#2273a1,#2273a1);    
     position: absolute;
     width: 100%;
     top: 0;
@@ -69,7 +69,7 @@ div[class="players"] > img:hover{
     align-items: bottom;
     padding: 20px;
     margin-top: 100px;
-    background-image: linear-gradient(to right, #004b76, #004b769f, #004b76 );
+    background-image: linear-gradient(to right, #004b76, #004b76, #004b76 );
     left: 0;
     bottom: 0;
     width: 100%;
@@ -87,6 +87,7 @@ nav > ul{
     justify-content: center;
     padding: 0;
     margin: 0; 
+    left: 0;
 }
 
 li{   
