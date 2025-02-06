@@ -5,8 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EX4</title>
 </head>
-<body>
-    <button onclick="createTable()"> boton</button>
-    <script src="./EX4.js"></script>
+<body>    
+    <script>
+        document.write("<button onclick='createTable()'>Generar Tabla</button>")
+        function createTable(){
+            document.write("<table border='3'>");
+
+            for (let i = 0; i <= 15; i++){
+                document.write("<tr>");
+                    for (let j = 0; j <= 15; j++){
+                        document.write("<td>" + i * j + "</td>");
+                    }document.write("</tr>")
+                }document.write("</table>")
+            document.write("<button onclick='refresh()'>Retroceder</button>");
+        }   
+        function refresh(){
+            location.reload();
+        }
+    </script>
 </body>
 </html>
+<!-- Genera una tabla solo con javascript -->

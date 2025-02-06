@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Methods Demo</title>
+    <style>
+        body{
+            display: grid;
+            grid-template-rows: 1;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        .container{
+            padding: 0;
+            margin: 0;            
+            grid-column-start: 2;
+            grid-column-end: 3;
+            box-shadow: 5px 5px 5px 2px lightgray;
+            max-width: 500px;
+            min-width: 500px;
+        }
+        .example{
+            margin:5px;
+            padding: 5px;
+            border: solid lightgray 2px;
+            min-height: 60px;
+           button{
+                margin-left: 2px;
+            }
+        }
+        button{
+            margin-right: 2px;
+        }
+        
+    </style>
+</head>
+<body>
+    <script>
+        document.write("<div class='container'>");
+        document.write("<h3>Basics 5 - JavaScript DOM Methods Testing</h3>")
+        document.write("<div class='example'>")
+        document.write("<span id='test-span'> Div with class example and this is span with id test-span</span>")
+        document.write("<input placeholder='Enter text'>")
+        document.write("<button onclick=''>Add Item</button>")
+        document.write("</div>")
+        document.write("<button onclick=''>Get input by id</button>")
+        document.write("<button onclick=''>Get label by tagname</button>")
+        document.write("<button onclick=''>Get element by class</button>")
+        document.write("<button onclick=''>Change text color to test-span</button>")
+        document.write("<button onclick=''>Create new paragraph</button>")
+        document.write("</div>")
+    </script>
+</body>
+</html>
