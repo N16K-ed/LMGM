@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed converter</title>
+    <style>
+        h1,h2,h3,h4,h5,h6{
+            color: #007bff;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 5px;
+        }      
+        button{
+            border: solid black 1px;
+            padding: 2px;
+        }         
+    </style>
+</head>
+<body>
+    <h3>Speed Converter (m/s to km/h)</h3>
+    <input type="number" name="convert" id="input" placeholder="Enter velocity in m/s">
+    <button onclick="convert()">Convert</button>
+    <br><label id="result">
+    <script>
+        function convert(){
+            
+            var data = document.getElementById("input").value;
+            if(data === ""){                
+                document.getElementById("result").innerHTML = "Please enter a valid number. </label>";
+            }else{
+                document.getElementById("result").innerHTML = data + " m/s = " + data*3.6 + " km/h </label>";
+
+            }
+        }
+        
+
+    </script>
+</body>
+</html>
