@@ -25,26 +25,33 @@
         <h2>Jugadores</h2>
         
         <div class="players">
-            <img src="./imagenes/Nueva carpeta/mark_evans.png" alt="Mark">
-            <img src="./imagenes/Nueva carpeta/axel_blaze.png" alt="Axel">
-            <img src="./imagenes/Nueva carpeta/jude_sharp.png" alt="Jude">
-            <img src="./imagenes/Nueva carpeta/kevin_dragonfly.png" alt="Kevin">
-            <img src="./imagenes/Nueva carpeta/nathan_swift.png" alt="Nathan">
-            <img src="./imagenes/Nueva carpeta/jack_wallside.png" alt="Jack">
-            <img src="./imagenes/Nueva carpeta/tod_ironside.png" alt="Tod">
-            <img src="./imagenes/Nueva carpeta/tim.png" alt="Tim">
-            <img src="./imagenes/Nueva carpeta/jim.png" alt="Jim">
-            <img src="./imagenes/Nueva carpeta/sam.png" alt="Sam">
-            <img src="./imagenes/Nueva carpeta/max.png" alt="Max">
-            <img src="./imagenes/Nueva carpeta/willy_glass.png" alt="Willy">
-            <img src="./imagenes/Nueva carpeta/steve.png" alt="Steve">
-            <img src="./imagenes/Nueva carpeta/bobby_shearer.png" alt="Bobby">
-            <img src="./imagenes/Nueva carpeta/erik_eagle.png" alt="Erik">
-        </div>
+            <button onclick="showMark()"><img class="Mark" src="./imagenes/Nueva carpeta/mark_evans.png" alt="Mark"></button>
+            <button onclick=""><img class="Axel" src="./imagenes/Nueva carpeta/axel_blaze.png" alt="Axel"></button>
+            <button onclick=""><img class="Jude" src="./imagenes/Nueva carpeta/jude_sharp.png" alt="Jude" onclick=""></button>
+            <button onclick=""><img class="Kevin" src="./imagenes/Nueva carpeta/kevin_dragonfly.png" alt="Kevin" onclick=""></button>
+            <button onclick=""><img class="Nathan" src="./imagenes/Nueva carpeta/nathan_swift.png" alt="Nathan" onclick=""></button>
+            <button onclick=""><img class="Jack" src="./imagenes/Nueva carpeta/jack_wallside.png" alt="Jack" onclick=""></button>
+            <button onclick=""><img class="Tod" src="./imagenes/Nueva carpeta/tod_ironside.png" alt="Tod" onclick=""></button>
+            <button onclick=""><img class="Tim" src="./imagenes/Nueva carpeta/tim.png" alt="Tim" onclick=""></button>
+            <button onclick=""><img class="Jim" src="./imagenes/Nueva carpeta/jim.png" alt="Jim" onclick=""></button>
+            <button onclick=""><img class="Sam" src="./imagenes/Nueva carpeta/sam.png" alt="Sam" onclick=""></button>
+            <button onclick=""><img class="Max" src="./imagenes/Nueva carpeta/max.png" alt="Max" onclick=""></button>
+            <button onclick=""><img class="Willy" src="./imagenes/Nueva carpeta/willy_glass.png" alt="Willy" onclick=""></button>
+            <button onclick=""><img class="Steve" src="./imagenes/Nueva carpeta/steve.png" alt="Steve" onclick=""></button>
+            <button onclick=""><img class="Bobby" src="./imagenes/Nueva carpeta/bobby_shearer.png" alt="Bobby" onclick=""></button>
+            <button onclick=""><img class="Erik" src="./imagenes/Nueva carpeta/erik_eagle.png" alt="Erik" onclick=""></button>
+        </div>        
+    </div>
+    <div id="info">
         
     </div>
     <div class="footer">
         <p>2025</p>
     </div>
+    <script>
+    function showMark (){
+        var infoJugador = "<p>Mark Evans</p>"        
+        document.getElementById("info").innerHTML = infoJugador
+    }</script>
 </body>
 </html>
