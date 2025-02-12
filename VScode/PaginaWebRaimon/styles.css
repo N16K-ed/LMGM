@@ -37,11 +37,12 @@ body{
     flex-direction: column;
     align-self: center;
     background-color: #243644;
-    width: 620px;       
+    width: 600px;       
     height: 220px; 
     border: 5px solid transparent;
     border-image:url("./imagenes/mitextbox.png") 30 round repeat;
-        text-align: center;    
+    text-align: center; 
+
     h2{
        padding-bottom: 5px;
        width: auto;
@@ -50,19 +51,22 @@ body{
        
     }
     button{
+        padding: 0;
         background-color: rgba(255, 255, 255, 0);
         border: 0px solid;
-        border-radius: 5px;
+        border-radius: 5px;              
     }
-    button:hover{        
+    button:hover{
+        padding: 0;        
         background-color: rgba(158, 191, 211, 0.8);
         border-radius: 5px;        
     }
 }
 
 .players{
+    
     justify-content: space-between;
-    width: auto;
+    width: auto;    
 }
 
 .footer{
@@ -122,7 +126,7 @@ li > a{
 #info{ 
     margin-top: 10px;  
     align-self: center;
-    width: 620px; 
+    width: 600px; 
     border: 5px solid transparent;
     border-image:url("./imagenes/mitextbox.png") 30 round repeat;
     height: auto;
@@ -131,6 +135,7 @@ li > a{
     border-image:url("./imagenes/mitextbox.png") 30 round repeat;
     color: white;
 }
-#info:empty{
-    display: none;
+.style1{
+    border: solid black 1px;
 }
+

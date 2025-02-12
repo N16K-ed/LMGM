@@ -11,9 +11,9 @@
     <div class="navigationbar">
         <nav>
             <ul>
-                <li><a href="">Opción 1</a></li>
-                <li><a href="">Opción 2</a></li>
-                <li><a href="">Opción 3</a></li>
+                <li><a href="">Jugadores</a></li>
+                <li><a href="">Alineaciones</a></li>
+                <li><a href="">Más Información</a></li>
             </ul>
         </nav>
     </div>
@@ -25,21 +25,21 @@
         <h2>Jugadores</h2>
         
         <div class="players">
-            <button onclick="showMark()"><img class="Mark" src="./imagenes/Nueva carpeta/mark_evans.png" alt="Mark"></button>
-            <button onclick=""><img class="Axel" src="./imagenes/Nueva carpeta/axel_blaze.png" alt="Axel"></button>
-            <button onclick=""><img class="Jude" src="./imagenes/Nueva carpeta/jude_sharp.png" alt="Jude" onclick=""></button>
-            <button onclick=""><img class="Kevin" src="./imagenes/Nueva carpeta/kevin_dragonfly.png" alt="Kevin" onclick=""></button>
-            <button onclick=""><img class="Nathan" src="./imagenes/Nueva carpeta/nathan_swift.png" alt="Nathan" onclick=""></button>
-            <button onclick=""><img class="Jack" src="./imagenes/Nueva carpeta/jack_wallside.png" alt="Jack" onclick=""></button>
-            <button onclick=""><img class="Tod" src="./imagenes/Nueva carpeta/tod_ironside.png" alt="Tod" onclick=""></button>
-            <button onclick=""><img class="Tim" src="./imagenes/Nueva carpeta/tim.png" alt="Tim" onclick=""></button>
-            <button onclick=""><img class="Jim" src="./imagenes/Nueva carpeta/jim.png" alt="Jim" onclick=""></button>
-            <button onclick=""><img class="Sam" src="./imagenes/Nueva carpeta/sam.png" alt="Sam" onclick=""></button>
-            <button onclick=""><img class="Max" src="./imagenes/Nueva carpeta/max.png" alt="Max" onclick=""></button>
-            <button onclick=""><img class="Willy" src="./imagenes/Nueva carpeta/willy_glass.png" alt="Willy" onclick=""></button>
-            <button onclick=""><img class="Steve" src="./imagenes/Nueva carpeta/steve.png" alt="Steve" onclick=""></button>
-            <button onclick=""><img class="Bobby" src="./imagenes/Nueva carpeta/bobby_shearer.png" alt="Bobby" onclick=""></button>
-            <button onclick=""><img class="Erik" src="./imagenes/Nueva carpeta/erik_eagle.png" alt="Erik" onclick=""></button>
+            <button onclick="showMark()"><img id="Mark" src="./imagenes/Nueva carpeta/mark_evans.png" alt="Mark"></button>
+            <button onclick="showAxel()"><img id="Axel" src="./imagenes/Nueva carpeta/axel_blaze.png" alt="Axel"></button>
+            <button onclick="showJude()"><img id="Jude" src="./imagenes/Nueva carpeta/jude_sharp.png" alt="Jude" onclick=""></button>
+            <button onclick="showKevin()"><img id="Kevin" src="./imagenes/Nueva carpeta/kevin_dragonfly.png" alt="Kevin" onclick=""></button>
+            <button onclick="showNathan()"><img id="Nathan" src="./imagenes/Nueva carpeta/nathan_swift.png" alt="Nathan" onclick=""></button>
+            <button onclick="showJack()"><img id="Jack" src="./imagenes/Nueva carpeta/jack_wallside.png" alt="Jack" onclick=""></button>
+            <button onclick="showTod()"><img id="Tod" src="./imagenes/Nueva carpeta/tod_ironside.png" alt="Tod" onclick=""></button>
+            <button onclick="showTim()"><img id="Tim" src="./imagenes/Nueva carpeta/tim.png" alt="Tim" onclick=""></button>
+            <button onclick="showJim()"><img id="Jim" src="./imagenes/Nueva carpeta/jim.png" alt="Jim" onclick=""></button>
+            <button onclick="showSam()"><img id="Sam" src="./imagenes/Nueva carpeta/sam.png" alt="Sam" onclick=""></button>
+            <button onclick="showMax()"><img id="Max" src="./imagenes/Nueva carpeta/max.png" alt="Max" onclick=""></button>
+            <button onclick="showWilly()"><img id="Willy" src="./imagenes/Nueva carpeta/willy_glass.png" alt="Willy" onclick=""></button>
+            <button onclick="showSteve()"><img id="Steve" src="./imagenes/Nueva carpeta/steve.png" alt="Steve" onclick=""></button>
+            <button onclick="showBobby()"><img id="Bobby" src="./imagenes/Nueva carpeta/bobby_shearer.png" alt="Bobby" onclick=""></button>
+            <button onclick="showErik()"><img id="Erik" src="./imagenes/Nueva carpeta/erik_eagle.png" alt="Erik" onclick=""></button>
         </div>        
     </div>
     <div id="info">
@@ -52,6 +52,289 @@
     function showMark (){
         var infoJugador = "<p>Mark Evans</p>"        
         document.getElementById("info").innerHTML = infoJugador
-    }</script>
+        document.getElementById("Mark").style.cssText = "background-color: rgba(158, 191, 211, 0.8);border-radius: 5px;"
+        document.getElementById("Axel").style.cssText = ""
+        document.getElementById("Jude").style.cssText = ""
+        document.getElementById("Kevin").style.cssText = ""
+        document.getElementById("Nathan").style.cssText = ""
+        document.getElementById("Jack").style.cssText = ""
+        document.getElementById("Tod").style.cssText = ""
+        document.getElementById("Tim").style.cssText = ""
+        document.getElementById("Jim").style.cssText = ""
+        document.getElementById("Sam").style.cssText = ""
+        document.getElementById("Max").style.cssText = ""
+        document.getElementById("Willy").style.cssText = ""
+        document.getElementById("Steve").style.cssText = ""
+        document.getElementById("Bobby").style.cssText = ""
+        document.getElementById("Erik").style.cssText = ""
+
+    }
+    function showAxel (){
+        var infoJugador = "<p>Axel Blaze</p>"        
+        document.getElementById("info").innerHTML = infoJugador
+        document.getElementById("Mark").style.cssText = ""
+        document.getElementById("Axel").style.cssText = "background-color: rgba(158, 191, 211, 0.8);border-radius: 5px;"
+        document.getElementById("Jude").style.cssText = ""
+        document.getElementById("Kevin").style.cssText = ""
+        document.getElementById("Nathan").style.cssText = ""
+        document.getElementById("Jack").style.cssText = ""
+        document.getElementById("Tod").style.cssText = ""
+        document.getElementById("Tim").style.cssText = ""
+        document.getElementById("Jim").style.cssText = ""
+        document.getElementById("Sam").style.cssText = ""
+        document.getElementById("Max").style.cssText = ""
+        document.getElementById("Willy").style.cssText = ""
+        document.getElementById("Steve").style.cssText = ""
+        document.getElementById("Bobby").style.cssText = ""
+        document.getElementById("Erik").style.cssText = ""
+    }
+    function showJude (){
+        var infoJugador = "<p>Jude Sharp</p>"        
+        document.getElementById("info").innerHTML = infoJugador
+        document.getElementById("Mark").style.cssText = ""
+        document.getElementById("Axel").style.cssText = ""
+        document.getElementById("Jude").style.cssText = "background-color: rgba(158, 191, 211, 0.8);border-radius: 5px;"
+        document.getElementById("Kevin").style.cssText = ""
+        document.getElementById("Nathan").style.cssText = ""
+        document.getElementById("Jack").style.cssText = ""
+        document.getElementById("Tod").style.cssText = ""
+        document.getElementById("Tim").style.cssText = ""
+        document.getElementById("Jim").style.cssText = ""
+        document.getElementById("Sam").style.cssText = ""
+        document.getElementById("Max").style.cssText = ""
+        document.getElementById("Willy").style.cssText = ""
+        document.getElementById("Steve").style.cssText = ""
+        document.getElementById("Bobby").style.cssText = ""
+        document.getElementById("Erik").style.cssText = ""
+    }
+    function showKevin (){
+        var infoJugador = "<p>Kevin Dragonfly</p>"        
+        document.getElementById("info").innerHTML = infoJugador
+        document.getElementById("Mark").style.cssText = ""
+        document.getElementById("Axel").style.cssText = ""
+        document.getElementById("Jude").style.cssText = ""
+        document.getElementById("Kevin").style.cssText = "background-color: rgba(158, 191, 211, 0.8);border-radius: 5px;"
+        document.getElementById("Nathan").style.cssText = ""
+        document.getElementById("Jack").style.cssText = ""
+        document.getElementById("Tod").style.cssText = ""
+        document.getElementById("Tim").style.cssText = ""
+        document.getElementById("Jim").style.cssText = ""
+        document.getElementById("Sam").style.cssText = ""
+        document.getElementById("Max").style.cssText = ""
+        document.getElementById("Willy").style.cssText = ""
+        document.getElementById("Steve").style.cssText = ""
+        document.getElementById("Bobby").style.cssText = ""
+        document.getElementById("Erik").style.cssText = ""
+    }
+    function showNathan (){
+        var infoJugador = "<p>Nathan Swift</p>"        
+        document.getElementById("info").innerHTML = infoJugador
+        document.getElementById("Mark").style.cssText = ""
+        document.getElementById("Axel").style.cssText = ""
+        document.getElementById("Jude").style.cssText = ""
+        document.getElementById("Kevin").style.cssText = ""
+        document.getElementById("Nathan").style.cssText = "background-color: rgba(158, 191, 211, 0.8);border-radius: 5px;"
+        document.getElementById("Jack").style.cssText = ""
+        document.getElementById("Tod").style.cssText = ""
+        document.getElementById("Tim").style.cssText = ""
+        document.getElementById("Jim").style.cssText = ""
+        document.getElementById("Sam").style.cssText = ""
+        document.getElementById("Max").style.cssText = ""
+        document.getElementById("Willy").style.cssText = ""
+        document.getElementById("Steve").style.cssText = ""
+        document.getElementById("Bobby").style.cssText = ""
+        document.getElementById("Erik").style.cssText = ""
+    }
+    function showJack (){
+        var infoJugador = "<p>Jack Wallside</p>"        
+        document.getElementById("info").innerHTML = infoJugador
+        document.getElementById("Mark").style.cssText = ""
+        document.getElementById("Axel").style.cssText = ""
+        document.getElementById("Jude").style.cssText = ""
+        document.getElementById("Kevin").style.cssText = ""
+        document.getElementById("Nathan").style.cssText = ""
+        document.getElementById("Jack").style.cssText = "background-color: rgba(158, 191, 211, 0.8);border-radius: 5px;"
+        document.getElementById("Tod").style.cssText = ""
+        document.getElementById("Tim").style.cssText = ""
+        document.getElementById("Jim").style.cssText = ""
+        document.getElementById("Sam").style.cssText = ""
+        document.getElementById("Max").style.cssText = ""
+        document.getElementById("Willy").style.cssText = ""
+        document.getElementById("Steve").style.cssText = ""
+        document.getElementById("Bobby").style.cssText = ""
+        document.getElementById("Erik").style.cssText = ""
+    }
+    function showTod (){
+        var infoJugador = "<p>Tod Ironside</p>"        
+        document.getElementById("info").innerHTML = infoJugador
+        document.getElementById("Mark").style.cssText = ""
+        document.getElementById("Axel").style.cssText = ""
+        document.getElementById("Jude").style.cssText = ""
+        document.getElementById("Kevin").style.cssText = ""
+        document.getElementById("Nathan").style.cssText = ""
+        document.getElementById("Jack").style.cssText = ""
+        document.getElementById("Tod").style.cssText = "background-color: rgba(158, 191, 211, 0.8);border-radius: 5px;"
+        document.getElementById("Tim").style.cssText = ""
+        document.getElementById("Jim").style.cssText = ""
+        document.getElementById("Sam").style.cssText = ""
+        document.getElementById("Max").style.cssText = ""
+        document.getElementById("Willy").style.cssText = ""
+        document.getElementById("Steve").style.cssText = ""
+        document.getElementById("Bobby").style.cssText = ""
+        document.getElementById("Erik").style.cssText = ""
+    }
+    function showTim (){
+        var infoJugador = "<p>Tim</p>"        
+        document.getElementById("info").innerHTML = infoJugador
+        document.getElementById("Mark").style.cssText = ""
+        document.getElementById("Axel").style.cssText = ""
+        document.getElementById("Jude").style.cssText = ""
+        document.getElementById("Kevin").style.cssText = ""
+        document.getElementById("Nathan").style.cssText = ""
+        document.getElementById("Jack").style.cssText = ""
+        document.getElementById("Tod").style.cssText = ""
+        document.getElementById("Tim").style.cssText = "background-color: rgba(158, 191, 211, 0.8);border-radius: 5px;"
+        document.getElementById("Jim").style.cssText = ""
+        document.getElementById("Sam").style.cssText = ""
+        document.getElementById("Max").style.cssText = ""
+        document.getElementById("Willy").style.cssText = ""
+        document.getElementById("Steve").style.cssText = ""
+        document.getElementById("Bobby").style.cssText = ""
+        document.getElementById("Erik").style.cssText = ""
+    }
+    function showJim (){
+        var infoJugador = "<p>Jim</p>"        
+        document.getElementById("info").innerHTML = infoJugador
+        document.getElementById("Mark").style.cssText = ""
+        document.getElementById("Axel").style.cssText = ""
+        document.getElementById("Jude").style.cssText = ""
+        document.getElementById("Kevin").style.cssText = ""
+        document.getElementById("Nathan").style.cssText = ""
+        document.getElementById("Jack").style.cssText = ""
+        document.getElementById("Tod").style.cssText = ""
+        document.getElementById("Tim").style.cssText = ""
+        document.getElementById("Jim").style.cssText = "background-color: rgba(158, 191, 211, 0.8);border-radius: 5px;"
+        document.getElementById("Sam").style.cssText = ""
+        document.getElementById("Max").style.cssText = ""
+        document.getElementById("Willy").style.cssText = ""
+        document.getElementById("Steve").style.cssText = ""
+        document.getElementById("Bobby").style.cssText = ""
+        document.getElementById("Erik").style.cssText = ""
+    }
+    function showSam (){
+        var infoJugador = "<p>Sam</p>"        
+        document.getElementById("info").innerHTML = infoJugador
+        document.getElementById("Mark").style.cssText = ""
+        document.getElementById("Axel").style.cssText = ""
+        document.getElementById("Jude").style.cssText = ""
+        document.getElementById("Kevin").style.cssText = ""
+        document.getElementById("Nathan").style.cssText = ""
+        document.getElementById("Jack").style.cssText = ""
+        document.getElementById("Tod").style.cssText = ""
+        document.getElementById("Tim").style.cssText = ""
+        document.getElementById("Jim").style.cssText = ""
+        document.getElementById("Sam").style.cssText = "background-color: rgba(158, 191, 211, 0.8);border-radius: 5px;"
+        document.getElementById("Max").style.cssText = ""
+        document.getElementById("Willy").style.cssText = ""
+        document.getElementById("Steve").style.cssText = ""
+        document.getElementById("Bobby").style.cssText = ""
+        document.getElementById("Erik").style.cssText = ""
+    }
+    function showMax (){
+        var infoJugador = "<p>Maxwell Carson</p>"        
+        document.getElementById("info").innerHTML = infoJugador
+        document.getElementById("Mark").style.cssText = ""
+        document.getElementById("Axel").style.cssText = ""
+        document.getElementById("Jude").style.cssText = ""
+        document.getElementById("Kevin").style.cssText = ""
+        document.getElementById("Nathan").style.cssText = ""
+        document.getElementById("Jack").style.cssText = ""
+        document.getElementById("Tod").style.cssText = ""
+        document.getElementById("Tim").style.cssText = ""
+        document.getElementById("Jim").style.cssText = ""
+        document.getElementById("Sam").style.cssText = ""
+        document.getElementById("Max").style.cssText = "background-color: rgba(158, 191, 211, 0.8);border-radius: 5px;"
+        document.getElementById("Willy").style.cssText = ""
+        document.getElementById("Steve").style.cssText = ""
+        document.getElementById("Bobby").style.cssText = ""
+        document.getElementById("Erik").style.cssText = ""
+    }
+    function showWilly (){
+        var infoJugador = "<p>Willy Glass</p>"        
+        document.getElementById("info").innerHTML = infoJugador
+        document.getElementById("Mark").style.cssText = ""
+        document.getElementById("Axel").style.cssText = ""
+        document.getElementById("Jude").style.cssText = ""
+        document.getElementById("Kevin").style.cssText = ""
+        document.getElementById("Nathan").style.cssText = ""
+        document.getElementById("Jack").style.cssText = ""
+        document.getElementById("Tod").style.cssText = ""
+        document.getElementById("Tim").style.cssText = ""
+        document.getElementById("Jim").style.cssText = ""
+        document.getElementById("Sam").style.cssText = ""
+        document.getElementById("Max").style.cssText = ""
+        document.getElementById("Willy").style.cssText = "background-color: rgba(158, 191, 211, 0.8);border-radius: 5px;"
+        document.getElementById("Steve").style.cssText = ""
+        document.getElementById("Bobby").style.cssText = ""
+        document.getElementById("Erik").style.cssText = ""
+    }
+    function showSteve (){
+        var infoJugador = "<p>Steve</p>"        
+        document.getElementById("info").innerHTML = infoJugador
+        document.getElementById("Mark").style.cssText = ""
+        document.getElementById("Axel").style.cssText = ""
+        document.getElementById("Jude").style.cssText = ""
+        document.getElementById("Kevin").style.cssText = ""
+        document.getElementById("Nathan").style.cssText = ""
+        document.getElementById("Jack").style.cssText = ""
+        document.getElementById("Tod").style.cssText = ""
+        document.getElementById("Tim").style.cssText = ""
+        document.getElementById("Jim").style.cssText = ""
+        document.getElementById("Sam").style.cssText = ""
+        document.getElementById("Max").style.cssText = ""
+        document.getElementById("Willy").style.cssText = ""
+        document.getElementById("Steve").style.cssText = "background-color: rgba(158, 191, 211, 0.8);border-radius: 5px;"
+        document.getElementById("Bobby").style.cssText = ""
+        document.getElementById("Erik").style.cssText = ""
+    }
+    function showBobby (){
+        var infoJugador = "<p>Bobby Shearer</p>"        
+        document.getElementById("info").innerHTML = infoJugador
+        document.getElementById("Mark").style.cssText = ""
+        document.getElementById("Axel").style.cssText = ""
+        document.getElementById("Jude").style.cssText = ""
+        document.getElementById("Kevin").style.cssText = ""
+        document.getElementById("Nathan").style.cssText = ""
+        document.getElementById("Jack").style.cssText = ""
+        document.getElementById("Tod").style.cssText = ""
+        document.getElementById("Tim").style.cssText = ""
+        document.getElementById("Jim").style.cssText = ""
+        document.getElementById("Sam").style.cssText = ""
+        document.getElementById("Max").style.cssText = ""
+        document.getElementById("Willy").style.cssText = ""
+        document.getElementById("Steve").style.cssText = ""
+        document.getElementById("Bobby").style.cssText = "background-color: rgba(158, 191, 211, 0.8);border-radius: 5px;"
+        document.getElementById("Erik").style.cssText = ""
+    }
+    function showErik (){
+        var infoJugador = "<p>Erik Eagle</p>"        
+        document.getElementById("info").innerHTML = infoJugador
+        document.getElementById("Mark").style.cssText = ""
+        document.getElementById("Axel").style.cssText = ""
+        document.getElementById("Jude").style.cssText = ""
+        document.getElementById("Kevin").style.cssText = ""
+        document.getElementById("Nathan").style.cssText = ""
+        document.getElementById("Jack").style.cssText = ""
+        document.getElementById("Tod").style.cssText = ""
+        document.getElementById("Tim").style.cssText = ""
+        document.getElementById("Jim").style.cssText = ""
+        document.getElementById("Sam").style.cssText = ""
+        document.getElementById("Max").style.cssText = ""
+        document.getElementById("Willy").style.cssText = ""
+        document.getElementById("Steve").style.cssText = ""
+        document.getElementById("Bobby").style.cssText = ""
+        document.getElementById("Erik").style.cssText = "background-color: rgba(158, 191, 211, 0.8);border-radius: 5px;"
+    }
+    </script>
 </body>
 </html>
