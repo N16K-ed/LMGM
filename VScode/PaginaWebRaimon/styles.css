@@ -134,3 +134,20 @@ li > a{
     border: solid black 1px;
 }
 
+#descRaimon{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    align-self: center;
+    width: 600px;
+    border: 5px solid transparent;
+    border-image:url('./imagenes/mitextbox.png') 30 round repeat;
+    height: auto;
+    overflow-wrap: break-word;
+    background-color: #243644;
+    border-image:url('./imagenes/mitextbox.png') 30 round repeat;
+    color: white;
+    P{
+        align-self: center;
+    }
+}
