@@ -1,0 +1,38 @@
+.main{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
+.main > div{
+    padding: 10px;
+    background-color: rgb(186, 186, 186);
+}
+.main > div:hover{
+    
+    background-color: black;
+    transition: 1s;
+    a{
+        color: white;
+        transition: 1s;
+    }
+}
+a{
+    text-decoration: none;
+}
+.message_php {
+    width:auto;
+    padding: 10px;
+    margin-left:25%;
+    margin-right:25%;
+    background-color: rgb(189, 188, 188);
+    font-family: 'Courier New', Courier, monospace;
+}
+.message_php > *{
+    background-color: rgba(0, 217, 255, 0.568);
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 5px;
+}
+b {
+    color:red;
+}
