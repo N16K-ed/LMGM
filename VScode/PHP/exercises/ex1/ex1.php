@@ -31,7 +31,7 @@
             $isStudentString = boolval($isStudent)?'true' : 'false';
 
 
-            echo '<p>In the next echo i m going to include some <br>
+            echo '<p>In the next <code>echo</code> i m going to include some <br>
             variables like: <br>name, age, height, the boolean isStudent</p>';
             
             echo '<p>My name is <b>'. $name.'</b> and it ´s <b>'. $isStudentString. '</b> that i´m a student</p>';
