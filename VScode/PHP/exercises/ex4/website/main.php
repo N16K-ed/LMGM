@@ -28,6 +28,18 @@ echo "<li>
 Delete a database with <a href='./deleteDB.php'>deleteDB.php</a>
 </li>";
 echo "</ul><hr>";
+include "./conn.php";
+echo "<hr>";
+include "./createDB.php";
+echo "<hr>";
+include "./createTable.php";
+echo "<hr>";
+include "./insertData.php";
+echo "<hr>";
+include "./deleteT.php";
+echo "<hr>";
+include "./deleteDB.php";
+echo "<hr>";
 ?>
 <img src="../unnamed.gif" alt="myAss">
 <p>KIRBY :0</p>
