@@ -23,7 +23,8 @@ body{
 .title{
     text-align: center;
     text-shadow:1px 1px gray;
-    background-image: linear-gradient(to right, #2273a1 ,#2273a1,#2273a1);    
+    background-image: linear-gradient(to right, #2273a1 ,#2273a1,#2273a1);   
+    
     position: absolute;
     width: 100%;
     top: 0;
